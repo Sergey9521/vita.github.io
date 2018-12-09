@@ -1,0 +1,122 @@
+.servicesPage .title{
+    text-align: left;
+    font-weight: 300;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+.twocolumns{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.twocolumns article{
+    margin-top: 40px;
+    background: var(--footerbg);
+    width: 100%;
+    box-sizing: border-box;
+    padding: 25px 30px;
+    border-radius: 3px;
+}
+
+.twocolumns article:first-child{
+    margin-top: 0px;
+}
+
+.leftcolumn{
+    width: 75%;
+    
+    align-self: flex-start;
+    
+}
+
+.leftcolumn_item_box{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-self: flex-start;
+}
+
+.leftcolumn_item_box img{
+    width: 35%;
+    align-self: flex-start;
+}
+
+.article_item{
+    width: 60%;
+}
+
+article h3 a{
+    text-transform: uppercase;
+    color: var(--color_main);
+    font-size: 25px;
+    font-weight: 400;
+}
+
+article h3 a:hover{
+    color: var(--nav_blue);
+}
+
+
+.article_item .button{
+    background: var(--nav_blue);
+    border: 0;
+    font-size: 16px;
+    border-radius: 3px;
+    color: white;
+    line-height: 52px;
+    width: 230px;
+    margin-top: 25px;
+    display: block;
+    text-align: center;
+}
+
+.article_item .button:hover{
+    cursor: pointer;
+    background: rgb(11, 121, 168);
+}
+
+.article_item p{
+    color: var(--color_article);
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 300;
+}
+
+.rightcolumn{
+    width: 22%;
+    background: var(--footerbg);
+    align-self: flex-start;
+    box-sizing: border-box;
+    padding-bottom: 35px;
+}
+
+.rightcolumn_content{
+    padding: 0px 25px;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+.rightcolumn h5{
+    font-size: 25px;
+    font-weight: 400;
+    padding-left: 25px;
+    padding-top: 25px;
+    
+}
+
+.rightcolumn a{
+    color: var(--color_main);
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.rightcolumn a:hover{
+    color: var(--nav_blue);
+}
+
+.rightcolumn_content .divider{
+    margin: 20px 0px;
+}

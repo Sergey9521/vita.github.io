@@ -1,0 +1,32 @@
+.services{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.services_item{
+    width: 48%;
+    border: 4px solid var(--pinkborder);
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.services_item h3{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 500;
+    font-family: 'Rubik';
+    font-style: normal;
+}
+
+.services_item ul{
+    padding-inline-start: 25px;
+}
+
+.services_item ul li{
+    margin-top: 7px;
+}

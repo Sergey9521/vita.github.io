@@ -1,0 +1,107 @@
+@import url(font.css);
+
+:root{
+    --color_main: #333333;
+    --header_text: #999999;
+    --header_fontSize: 16px;
+    --nav_blue: #1dafed;
+    --header_height: 65px;
+    --footerbg: #F5F5F5;
+    --pinkbg: #FFD6FE;
+    --pinkborder: #e369e5;
+    --color_article: #565656;
+}
+
+body{
+    font-family:'Rubik',sans-serif;
+    font-weight: 400;
+    color: var(--color_main);
+}
+
+html{
+    height:100%
+}
+
+h1,h2,h3,h4,h5,h6,span,p,ul{
+	-webkit-margin-before:0;
+    -webkit-margin-after:0;
+    -webkit-margin-start:0;
+    -webkit-margin-end:0;
+    -moz-margin-before:0;
+    -moz-margin-after:0;
+    -moz-margin-start:0;
+    -moz-margin-end:0;
+	margin:0
+}
+
+.center{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1150px;  
+}
+
+.currentpage{
+    background-color: var(--nav_blue);
+}
+
+header ul .currentpage a{
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+}
+
+.relative{
+    position: relative;
+}
+
+.bgpink{
+    background: var(--pinkbg);
+    padding: 30px 0px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.bgpink h2, .bgpink h3{
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.divider{
+    width: 100%;
+    border-top: 1px solid rgba(51,51,51,0.1);
+    height: 0px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.upbutton{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid var(--pinkborder);
+    background: var(--pinkbg);
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    opacity: 0.5;
+    display: none;
+}
+
+.upbutton:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.upbutton img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -10px;
+    margin-left: -10px;
+}
