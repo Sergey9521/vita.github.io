@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="styles/footer.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="styles/servicesPage.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="styles/services_info.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/form.css" />
 
     <script src="js/main.js"></script>
     <script src="js/scroll.js"></script>
@@ -82,13 +83,17 @@
                             и получите гарантированно качественное обследование и лечение.</p>
                         </div>
                     </div>
+                    <div class="divider"></div>
+                    <form action="send.php" class="form" method="post">
+                        <h4>Записаться на приём</h4>
+                        <input type="text" name="name" placeholder="Ваше имя">
+                        <input type="tel" name="tel" placeholder="Ваш телефон">
+                        <input type="email" name="mail" placeholder="Ваш Email">
+                        <textarea name="text" placeholder="Дополнительная информация"></textarea>
+                        <input type="submit" value="Записаться" class="button">
+                    </form>
                 </article>
-                <form action="send.php" class="form" method="post">
-                    <h4>Записаться на приём</h4>
-                    <input type="text" name="name" placeholder="Ваше имя">
-                    <input type="tel" name="tel" placeholder="Ваш телефон">
-                    <input type="email" name="" id="">
-                </form>
+                
 
             </div>
             <aside class="rightcolumn">

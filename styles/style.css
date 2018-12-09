@@ -105,3 +105,22 @@ a{
     margin-top: -10px;
     margin-left: -10px;
 }
+
+
+.button{
+    background: var(--nav_blue);
+    border: 0;
+    font-size: 16px;
+    border-radius: 3px;
+    color: white;
+    line-height: 52px;
+    width: 230px;
+    margin-top: 25px;
+    display: block;
+    text-align: center;
+}
+
+.button:hover{
+    cursor: pointer;
+    background: rgb(11, 121, 168);
+}
