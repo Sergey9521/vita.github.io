@@ -1,0 +1,60 @@
+.price .title{
+    text-align: left;
+    font-weight: 400;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+.table{
+    background: var(--footerbg);
+    padding: 30px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.table h4{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 25px;
+
+}
+
+.table_item{
+    border: 1px solid black;
+    width: 70%;
+    margin: 0 auto;
+}
+
+table,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    box-sizing: border-box;
+}
+
+td{
+    padding: 15px;
+}
+
+.tablename{
+    font-size: 21px;
+    font-weight: 400;
+    margin-top: 35px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.kind{
+    width: 80%;
+}
+
+.cost{
+    width: 20%;
+}
+
+
+.analysis{
+    margin-top: 100px;
+}

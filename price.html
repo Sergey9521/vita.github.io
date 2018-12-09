@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>VITA Clinic  Женская гинеклогическая клиника</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/nav.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/normalize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/header.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/slides.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/title.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/info.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/services_index.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/workers.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/addres.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/footer.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/price.css" />
+    <script src="js/main.js"></script>
+    <script src="js/scroll.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header center">
+            <div class="header_item header_logo">
+                <a href="#">
+                    <img src="images/logo/logo.png" alt="">
+                </a>
+            </div>
+            <nav>
+                <ul class="header_nav">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="services.html">Услуги</a></li>
+                    <li id="subMenu_price" class="currentpage relative">
+                        <a href="price.html" class="subMenu_top">Цены</a>
+                        <ul class="price_sub subMenu" id="price">
+                            <li><a href="#">услуги</a></li>
+                            <li><a href="#">анализы</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="promo.html">Акции</a></li>
+                    <li><a href="about.html">О клинике</a></li>
+                    <li id="subMenu_contacts" class="relative">
+                        <a href="contacts.html" class="subMenu_top">Контакты</a>
+                        <ul class="contacts_sub subMenu" id="contacts">
+                            <li><a href="reception.html">Запись на приём</a></li>
+                            <li><a href="allquest.html">Задать вопрос</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="blog.html">Блог</a></li>
+                </ul>
+            </nav>
+        </div> <!-- end of .header -->
+    </header>
+
+    <section class="slides">
+        <img src="images/slides/09.jpg" alt="">
+    </section>
+
+    <section class="price center">
+        <h3 class="title">ЦЕНЫ НА УСЛУГИ И АНАЛИЗЫ</h3>
+        <div class="divider"></div>
+        <div class="table">
+            <h4>ЦЕНЫ НА УСЛУГИ</h4>
+            <table class="table_item">
+                <tr class="table_row">
+                    <td class="kind">Диагностический осмотр </td>
+                    <td class="cost">250 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Кольпоскопия</td>
+                    <td class="cost">350 грн</td>
+                </tr>
+            </table>
+
+            <h5 class="tablename">Консультация:</h5>
+            <table class="table_item">
+                <tr class="table_row">
+                    <td class="kind">первичная консультация врача по рез.вне клиники(до 30 мин.)</td>
+                    <td class="cost">500 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">первичная консультация врача по рез.вне клиники(30-60 мин.)</td>
+                    <td class="cost">700 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">повторная малая консультация (5-15 мин.)</td>
+                    <td class="cost">200 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">повторная средняя консультация (15-35 мин.)</td>
+                    <td class="cost">350 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">повторная большая консультация (35-60 мин.)</td>
+                    <td class="cost">500 грн</td>
+                </tr>
+            </table>
+
+            <h5 class="tablename">УЗИ:</h5>
+            <table class="table_item">
+                <tr class="table_row">
+                    <td class="kind">УЗИ органов малого таза</td>
+                    <td class="cost">400 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">УЗИ органов малого таза + консультация</td>
+                    <td class="cost">500 грн</td>
+                </tr>
+            </table>
+
+            <h5 class="tablename">Фолликулометрия:</h5>
+            <table class="table_item">
+                <tr class="table_row">
+                    <td class="kind">Фолликулометрия</td>
+                    <td class="cost">150 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Фолликулометрия + консультация</td>
+                    <td class="cost">250 грн</td>
+                </tr>
+            </table>
+
+            <h5 class="tablename">Взятие биопсии шейки матки:</h5>
+            <table class="table_item">
+                <tr class="table_row">
+                    <td class="kind">Легкая степень сложности (1—2 кус.)</td>
+                    <td class="cost">700 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Умеренная степень сложности (3—5 кус.)</td>
+                    <td class="cost">900 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Забор материала для исследования</td>
+                    <td class="cost">50-70 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Лечебная манипуляция</td>
+                    <td class="cost">200 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Большая схема лечения по ЗППП</td>
+                    <td class="cost">600 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Аспират цитологии из полости матки</td>
+                    <td class="cost">700 грн</td>
+                </tr>
+            </table>
+
+            <h5 class="tablename">Внутриматочная спираль:</h5>
+            <table class="table_item">
+                <tr class="table_row">
+                    <td class="kind">Постановка спирали (без учета стоимости спирали) +осмотр, 
+                        кольпоскопия, УЗИ до и после постановки спирали</td>
+                    <td class="cost">1000 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Удаление спирали + осмотр</td>
+                    <td class="cost">500 грн</td>
+                </tr>
+            </table>
+
+            <h5 class="tablename">Удаление папиллом с полным осмотром:</h5>
+            <table class="table_item">
+                <tr class="table_row">
+                    <td class="kind">Легкая степень сложности (до 5 папиллом)</td>
+                    <td class="cost">700 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Умеренная степень сложности (от 6 папиллом)</td>
+                    <td class="cost">900 грн</td>
+                </tr>
+            </table>
+
+            <h5 class="tablename">Другие услуги:</h5>
+            <table class="table_item">
+                <tr class="table_row">
+                    <td class="kind"><strong>Радиоволновая терапия</strong> шейки матки (кольпоскопия, 
+                        радиоволновая терапия) с Патгистологическим исследованием</td>
+                    <td class="cost"> 2 800 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind"><strong>Временное восстановление девственности</strong> (до 7 дней)</td>
+                    <td class="cost">5 000 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind"><strong>Интимная контурная пластика</strong></td>
+                    <td class="cost">от 7 000 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind"><strong>Ведение беременности</strong> (все консультации, осмотры, 
+                        УЗИ, лабораторная диагностика, консультации смежных специалистов) </td>
+                    <td class="cost">16 000 грн</td>
+                </tr>
+            </table>
+
+
+            <h4 class="analysis">
+                ЦЕНЫ НА АНАЛИЗЫ
+            </h4>
+            <h5 class="tablename">Общеклинические анализы</h5>
+            <table class="table_item">
+                <tr class="table_row">
+                    <td class="kind">Общий анализ крови</td>
+                    <td class="cost">130 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Общий анализ мочи</td>
+                    <td class="cost">95 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Группа крови Ph фактор</td>
+                    <td class="cost">120 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Гемолизины</td>
+                    <td class="cost">120 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Бак посев мочи</td>
+                    <td class="cost">220 грн</td>
+                </tr>
+            </table>
+
+            <h5 class="tablename">Биохимия крови:</h5>
+            <table class="table_item">
+                <tr class="table_row">
+                    <td class="kind">АЛТ</td>
+                    <td class="cost">45 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">АСТ</td>
+                    <td class="cost">45 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Билирубин общий</td>
+                    <td class="cost">45 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Билирубин прям/непрям</td>
+                    <td class="cost">85 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Общий Белок</td>
+                    <td class="cost">45 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">ЩФ</td>
+                    <td class="cost">45 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">ЛДГ(лактатдегидрогеназа)</td>
+                    <td class="cost">45 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Липидограмма</td>
+                    <td class="cost">190 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Глюкоза крови</td>
+                    <td class="cost">70 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Креатинин</td>
+                    <td class="cost">45 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Мочевина</td>
+                    <td class="cost">45 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Коалограмма</td>
+                    <td class="cost">245 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Железо</td>
+                    <td class="cost">45 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Кальций</td>
+                    <td class="cost">45 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Магний</td>
+                    <td class="cost">45 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Цинк</td>
+                    <td class="cost">150 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Ферритин</td>
+                    <td class="cost">145 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Гликолизиров гемоглоб</td>
+                    <td class="cost">140 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Холестерин</td>
+                    <td class="cost">45 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Холестерин+фракции (пак)</td>
+                    <td class="cost">190 грн</td>
+                </tr>
+            </table>
+
+            <h5 class="tablename">Гормоны:</h5>
+            <table class="table_item">
+                <tr class="table_row">
+                    <td class="kind">ЛГ</td>
+                    <td class="cost">135 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">ФСГ</td>
+                    <td class="cost">135 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Пролактин</td>
+                    <td class="cost">135 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Эстрадиол</td>
+                    <td class="cost">135 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Прогестерон</td>
+                    <td class="cost">135 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">ДГЭА сульф</td>
+                    <td class="cost">135 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Тестестерон общ</td>
+                    <td class="cost">135 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Тестестерон св</td>
+                    <td class="cost">180 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Инд своб Тестестерона</td>
+                    <td class="cost">280 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">ГСПГ</td>
+                    <td class="cost">135 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Антиспермальные а/т</td>
+                    <td class="cost">150 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Антимюллеровый гормон</td>
+                    <td class="cost">370 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">17 альфа Оксопрогестерон</td>
+                    <td class="cost">135 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">ТТГ</td>
+                    <td class="cost">120 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Т4 св</td>
+                    <td class="cost">120 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Антитела к тиреопироксид</td>
+                    <td class="cost">125 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Антитела к тиреоглоб</td>
+                    <td class="cost">125 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Антитела к рец ТТГ</td>
+                    <td class="cost">280 грн</td>
+                </tr>
+            </table>
+
+            <h5 class="tablename">Инфекции:</h5>
+            <table class="table_item">
+                <tr class="table_row">
+                    <td class="kind">Микроскопия мазка</td>
+                    <td class="cost">60 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Цитология</td>
+                    <td class="cost">150 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Хламидия</td>
+                    <td class="cost">125 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Мико-Урео DUO </td>
+                    <td class="cost">240 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Мико-Урео DUO +а/г</td>
+                    <td class="cost">290 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Мико/Уреа ПЦР</td>
+                    <td class="cost">по 125 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Трихомонада</td>
+                    <td class="cost">125 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Гарднарелла</td>
+                    <td class="cost">125 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Герпес 1, 2</td>
+                    <td class="cost">130 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Генитальный скрининг</td>
+                    <td class="cost">400 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Бакпосев уроген выд+а/г</td>
+                    <td class="cost">240 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">ЦМВ</td>
+                    <td class="cost">130 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">ВПЧ Digene тест</td>
+                    <td class="cost">630 грн</td>
+                </tr>
+            </table>
+
+            <h5 class="tablename">TORCH</h5>
+            <table class="table_item">
+                <tr class="table_row">
+                    <td class="kind">Токсоплазма Ig G</td>
+                    <td class="cost">120 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Токсоплазма Ig M</td>
+                    <td class="cost">120 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Краснуха Ig G</td>
+                    <td class="cost">120 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Краснуха Ig М</td>
+                    <td class="cost">120 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">ЦМВ Ig G</td>
+                    <td class="cost">115 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">ЦМВ Ig М</td>
+                    <td class="cost">115 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Хламидия Ig G</td>
+                    <td class="cost">125 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Хламидия Ig М</td>
+                    <td class="cost">125 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Герпес Ig G</td>
+                    <td class="cost">130 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Герпес Ig M</td>
+                    <td class="cost">130 грн</td>
+                </tr>
+            </table>
+
+            <h5 class="tablename">ПРИСКА</h5>
+            <table class="table_item">
+                <tr class="table_row">
+                    <td class="kind">1 триместр</td>
+                    <td class="cost">320 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">2 триместр</td>
+                    <td class="cost">400 грн</td>
+                </tr>
+            </table>
+
+            <h5 class="tablename">ПРИСКА</h5>
+            <table class="table_item">
+                <tr class="table_row">
+                    <td class="kind">СА 125</td>
+                    <td class="cost">155 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">НЕ 4</td>
+                    <td class="cost">340 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Индекс ROMA (Пак№18)</td>
+                    <td class="cost">490 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">РЭА</td>
+                    <td class="cost">155 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">ПСА общ</td>
+                    <td class="cost">135 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">ПСА своб АФП</td>
+                    <td class="cost">135 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Антиген плоскокл карцин</td>
+                    <td class="cost">310 грн</td>
+                </tr>
+            </table>
+
+            <h5 class="tablename">Гепатиты ВИЧ RW</h5>
+            <table class="table_item">
+                <tr class="table_row">
+                    <td class="kind">HbSAg</td>
+                    <td class="cost">145 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Гепат С суммарный</td>
+                    <td class="cost">175 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">RW</td>
+                    <td class="cost">65 грн</td>
+                </tr>
+                <tr class="table_row">
+                    <td class="kind">Вич</td>
+                    <td class="cost">180 грн</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="center">
+            <div class="footer_item">
+                <h5>КОНТАКТНЫЕ ТЕЛЕФОНЫ</h5>
+                <div class="info_item_numbers">
+                    <a href="tel:+380 (44) 332 84 85">
+                        +380(44)332-84-85
+                    </a>
+                    <a href="tel:+380 (98) 078 75 54">
+                        +380(98)078-75-54
+                    </a>
+                    <a href="tel:+380 (63) 508-11-40">
+                        +380(63)508-11-40
+                    </a>
+                </div>
+            </div>
+            <div class="footer_item">
+                <h5>СОЦИАЛЬНЫЕ СТРАНИЦЫ</h5>
+                <div class="social_icons">
+                    <a href="https://www.instagram.com/medvita_kiev/" class="insta">
+                        <img src="images/icons/instagram.svg" alt="instagram">
+                    </a>
+                    <a href="https://www.facebook.com/ClinicVita/">
+                        <img src="images/icons/facebook.svg" alt="facebook">
+                    </a>
+                </div>
+            </div>
+            <div class="footer_item">
+                <h5>ВРЕМЯ РАБОТЫ</h5>
+                <div class="info_item_schedule">
+                    <p>ВТ, СР, ЧТ, ПТ, СБ:</p>
+                    <p><strong>10<sup>00</sup> — 18<sup>00</sup></strong></p>
+                    <p>ВС, ПН: выходной</p>
+                </div>
+            </div>
+        </div>
+        <div class="copyright center">
+            <h2>© ЖЕНСКАЯ ГИНЕКОЛОГИЧЕСКАЯ КЛИНИКА «VITA»</h2>
+        </div>
+    </footer>
+
+    <div class="upbutton" id="up">
+        <img src="images/icons/up.svg" alt="UP">
+    </div>
+</body>
+</html>
