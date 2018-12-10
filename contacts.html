@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>VITA Clinic  Женская гинеклогическая клиника</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/nav.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/normalize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/header.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/slides.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/title.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/info.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/services_index.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/workers.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/addres.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/footer.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/form.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/contacts.css" />
+    <script src="js/main.js"></script>
+    <script src="js/scroll.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header center">
+            <div class="header_item header_logo">
+                <a href="#">
+                    <img src="images/logo/logo.png" alt="">
+                </a>
+            </div>
+            <nav>
+                <ul class="header_nav">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="services.html">Услуги</a></li>
+                    <li id="subMenu_price" class="relative">
+                        <a href="price.html" class="subMenu_top">Цены</a>
+                        <ul class="price_sub subMenu" id="price">
+                            <li><a href="#">услуги</a></li>
+                            <li><a href="#">анализы</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="promo.html">Акции</a></li>
+                    <li><a href="about.html">О клинике</a></li>
+                    <li id="subMenu_contacts" class="relative currentpage">
+                        <a href="contacts.html" class="subMenu_top">Контакты</a>
+                        <ul class="contacts_sub subMenu" id="contacts">
+                            <li><a href="reception.html">Запись на приём</a></li>
+                            <li><a href="allquest.html">Задать вопрос</a></li>
+                        </ul>
+                    </li>
+                    <!-- <li><a href="blog.html">Блог</a></li> -->
+                </ul>
+            </nav>
+        </div> <!-- end of .header -->
+    </header>
+
+    <section class="slides">
+        <img src="images/slides/02.jpg" alt="">
+    </section>
+
+    <section class="center">
+        <h2 class="contactstitle">Контакты</h2>
+        <div class="divider"></div>
+    </section>
+
+    <section class="center contacts">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.6746208488553!2d30.446697315248713!3d50.44716107947495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cc26c999d44d%3A0x17313b66634ae065!2z0JrQvtCy0LDQu9GM0YHRjNC60LjQuSDQv9GA0L7QstGD0LvQvtC6LCAxOSwg0Lkg0Y3RgtCw0LYsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1sru!2sua!4v1544224938153" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <div class="contacts_item">
+                <h1>Женская гинекологическая клиника «VITA»</h1>
+                <h2>г. Киев, пер. Ковальский, 19, 2-й этаж</h2>
+                <div class="contacts_numbers">
+                    <a href="tel:+380 (44) 332 84 85">
+                        +380(44)332-84-85
+                    </a>
+                    <a href="tel:+380 (98) 078 75 54">
+                        +380(98)078-75-54
+                    </a>
+                    <a href="tel:+380 (63) 508-11-40">
+                        +380(63)508-11-40
+                    </a>
+                </div>
+                <div class="contacts_social">
+                    <a href="https://www.instagram.com/medvita_kiev/" class="insta">
+                            <img src="images/icons/instagram.svg" alt="instagram">
+                        </a>
+                        <a href="https://www.facebook.com/ClinicVita/">
+                            <img src="images/icons/facebook.svg" alt="facebook">
+                        </a>
+                </div>
+            </div>
+    </section>
+
+    
+
+    <section class="center">
+            <div class="divider"></div>
+            <form action="send.php" class="form" method="post">
+                    <h4>Чтобы записаться на приём или задать вопрос, 
+                        заполните форму и мы свяжемся с Вами в ближайшее время</h4>
+                    <input type="text" name="name" placeholder="Ваше имя">
+                    <input type="tel" name="tel" placeholder="Ваш телефон">
+                    <input type="email" name="mail" placeholder="Ваш Email">
+                    <textarea name="text" placeholder="Дополнительная информация"></textarea>
+                    <input type="submit" value="Записаться" class="button">
+            </form>
+    </section>
+
+
+    <footer>
+            <div class="center">
+                <div class="footer_item">
+                    <h5>КОНТАКТНЫЕ ТЕЛЕФОНЫ</h5>
+                    <div class="info_item_numbers">
+                        <a href="tel:+380 (44) 332 84 85">
+                            +380(44)332-84-85
+                        </a>
+                        <a href="tel:+380 (98) 078 75 54">
+                            +380(98)078-75-54
+                        </a>
+                        <a href="tel:+380 (63) 508-11-40">
+                            +380(63)508-11-40
+                        </a>
+                    </div>
+                </div>
+                <div class="footer_item">
+                    <h5>СОЦИАЛЬНЫЕ СТРАНИЦЫ</h5>
+                    <div class="social_icons">
+                        <a href="https://www.instagram.com/medvita_kiev/" class="insta">
+                            <img src="images/icons/instagram.svg" alt="instagram">
+                        </a>
+                        <a href="https://www.facebook.com/ClinicVita/">
+                            <img src="images/icons/facebook.svg" alt="facebook">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer_item">
+                    <h5>ВРЕМЯ РАБОТЫ</h5>
+                    <div class="info_item_schedule">
+                        <p>ВТ, СР, ЧТ, ПТ, СБ:</p>
+                        <p><strong>10<sup>00</sup> — 18<sup>00</sup></strong></p>
+                        <p>ВС, ПН: выходной</p>
+                        <p>Запись на приём: ПН - СБ 9<sup>00</sup> — 19<sup>00</sup></p>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright center">
+                <h2>© ЖЕНСКАЯ ГИНЕКОЛОГИЧЕСКАЯ КЛИНИКА «VITA»</h2>
+            </div>
+        </footer>
+    
+        <div class="upbutton" id="up">
+            <img src="images/icons/up.svg" alt="UP">
+        </div>
+    </body>
+    </html>

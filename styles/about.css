@@ -1,0 +1,63 @@
+.textabout{
+    display: flex;
+    justify-content: space-between;
+}
+
+.textabout p{
+    width: 48%;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+.aboutus{
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutus_img{
+    width: 45%;
+}
+
+.aboutclinic_img{
+    width: 100%;
+}
+
+.aboutus_list{
+    width: 51%;
+}
+
+.aboutus_list h3{
+    font-size: 21px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.aboutus_list ul{
+    padding-inline-start: 30px;
+    margin-bottom: 35px;
+}
+
+.aboutus_list li{
+    margin-bottom: 8px;
+}
+
+.aboutclinic{
+    font-size: 33px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.custommargin{
+    margin: 40px 0px;
+}
+
+.long{
+    height: 500px;
+}
+
+.short{
+    height: 270px;
+}
