@@ -21,6 +21,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="styles/contacts.css" />
     <script src="js/main.js"></script>
     <script src="js/scroll.js"></script>
+    <script src="js/burger.js"></script>
 </head>
 <body>
     <header>
@@ -53,8 +54,36 @@
                     <!-- <li><a href="blog.html">Блог</a></li> -->
                 </ul>
             </nav>
+            <a href="#" id="burg" class="burger">
+                    <img src="images/icons/burgerpink.svg" alt="">
+                </a>
         </div> <!-- end of .header -->
     </header>
+
+    <ul class="header_nav_mobile" id="mobmenu">
+            <img src="images/icons/error.svg" alt="close" id="close">
+                <div class="centralize">
+            <li><a href="#">Главная</a></li>
+            <li><a href="services.html">Услуги</a></li>
+            <li id="subMenu_price" class="relative">
+                <a href="price.html" class="subMenu_top">Цены</a>
+                <ul class="price_sub subMenu" id="price">
+                    <li><a href="#">услуги</a></li>
+                    <li><a href="#">анализы</a></li>
+                </ul>
+            </li>
+            <li><a href="promo.html">Акции</a></li>
+            <li><a href="about.html">О клинике</a></li>
+            <li id="subMenu_contacts" class="relative">
+                <a href="contacts.html" class="subMenu_top">Контакты </a>
+                <ul class="contacts_sub subMenu" id="contacts">
+                    <li><a href="reception.html">Запись на приём</a></li>
+                    <li><a href="allquest.html">Задать вопрос</a></li>
+                </ul>
+            </li>
+        </div> 
+            <!-- <li><a href="blog.html">Блог</a></li> -->
+        </ul>
 
     <section class="slides">
         <img src="images/slides/02.jpg" alt="">
@@ -96,7 +125,7 @@
 
     <section class="center">
             <div class="divider"></div>
-            <form action="send.php" class="form" method="post">
+            <form action="send.php" class="form" method="post" id="form">
                     <h4>Чтобы записаться на приём или задать вопрос, 
                         заполните форму и мы свяжемся с Вами в ближайшее время</h4>
                     <input type="text" name="name" placeholder="Ваше имя">

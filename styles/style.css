@@ -125,3 +125,10 @@ a{
     cursor: pointer;
     background: rgb(11, 121, 168);
 }
+
+
+@media screen and (max-width: 370px){
+    .bgpink h2{
+        font-size: 25px;
+    }
+}

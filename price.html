@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="styles/price.css" />
     <script src="js/main.js"></script>
     <script src="js/scroll.js"></script>
+    <script src="js/burger.js"></script>
 </head>
 <body>
     <header>
@@ -31,7 +32,7 @@
             </div>
             <nav>
                 <ul class="header_nav">
-                    <li><a href="#">Главная</a></li>
+                    <li><a href="index.html">Главная</a></li>
                     <li><a href="services.html">Услуги</a></li>
                     <li id="subMenu_price" class="currentpage relative">
                         <a href="price.html" class="subMenu_top">Цены</a>
@@ -52,8 +53,36 @@
                     <!-- <li><a href="blog.html">Блог</a></li> -->
                 </ul>
             </nav>
+            <a href="#" id="burg" class="burger">
+                    <img src="images/icons/burgerpink.svg" alt="">
+                </a>
         </div> <!-- end of .header -->
     </header>
+
+    <ul class="header_nav_mobile" id="mobmenu">
+            <img src="images/icons/error.svg" alt="close" id="close">
+                <div class="centralize">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="services.html">Услуги</a></li>
+            <li id="subMenu_price" class="relative">
+                <a href="price.html" class="subMenu_top">Цены</a>
+                <ul class="price_sub subMenu" id="price">
+                    <li><a href="#">услуги</a></li>
+                    <li><a href="#">анализы</a></li>
+                </ul>
+            </li>
+            <li><a href="promo.html">Акции</a></li>
+            <li><a href="about.html">О клинике</a></li>
+            <li id="subMenu_contacts" class="relative">
+                <a href="contacts.html" class="subMenu_top">Контакты </a>
+                <ul class="contacts_sub subMenu" id="contacts">
+                    <li><a href="reception.html">Запись на приём</a></li>
+                    <li><a href="allquest.html">Задать вопрос</a></li>
+                </ul>
+            </li>
+        </div> 
+            <!-- <li><a href="blog.html">Блог</a></li> -->
+        </ul>
 
     <section class="slides">
         <img src="images/slides/09.jpg" alt="">
@@ -71,7 +100,7 @@
                 </tr>
                 <tr class="table_row">
                     <td class="kind">Кольпоскопия</td>
-                    <td class="cost">350 грн</td>
+                    <td class="cost">450 грн</td>
                 </tr>
             </table>
 
@@ -79,11 +108,11 @@
             <table class="table_item">
                 <tr class="table_row">
                     <td class="kind">первичная консультация врача по рез.вне клиники(до 30 мин.)</td>
-                    <td class="cost">500 грн</td>
+                    <td class="cost">600 грн</td>
                 </tr>
                 <tr class="table_row">
                     <td class="kind">первичная консультация врача по рез.вне клиники(30-60 мин.)</td>
-                    <td class="cost">700 грн</td>
+                    <td class="cost">800 грн</td>
                 </tr>
                 <tr class="table_row">
                     <td class="kind">повторная малая консультация (5-15 мин.)</td>
@@ -91,11 +120,11 @@
                 </tr>
                 <tr class="table_row">
                     <td class="kind">повторная средняя консультация (15-35 мин.)</td>
-                    <td class="cost">350 грн</td>
+                    <td class="cost">400 грн</td>
                 </tr>
                 <tr class="table_row">
                     <td class="kind">повторная большая консультация (35-60 мин.)</td>
-                    <td class="cost">500 грн</td>
+                    <td class="cost">600 грн</td>
                 </tr>
             </table>
 
@@ -109,17 +138,22 @@
                     <td class="kind">УЗИ органов малого таза + консультация</td>
                     <td class="cost">500 грн</td>
                 </tr>
+                <tr class="table_row">
+                    <td class="kind">УЗИ органов малого таза + консультация + назначение</td>
+                    <td class="cost">600 грн</td>
+                </tr>
+
             </table>
 
             <h5 class="tablename">Фолликулометрия:</h5>
             <table class="table_item">
                 <tr class="table_row">
                     <td class="kind">Фолликулометрия</td>
-                    <td class="cost">150 грн</td>
+                    <td class="cost">230 грн</td>
                 </tr>
                 <tr class="table_row">
-                    <td class="kind">Фолликулометрия + консультация</td>
-                    <td class="cost">250 грн</td>
+                    <td class="kind">Фолликулометрия + консультация(с коррекцией назначений)</td>
+                    <td class="cost">430 грн</td>
                 </tr>
             </table>
 
@@ -143,11 +177,11 @@
                 </tr>
                 <tr class="table_row">
                     <td class="kind">Большая схема лечения по ЗППП</td>
-                    <td class="cost">600 грн</td>
+                    <td class="cost">700 грн</td>
                 </tr>
                 <tr class="table_row">
-                    <td class="kind">Аспират цитологии из полости матки</td>
-                    <td class="cost">700 грн</td>
+                    <td class="kind">Аспират цитологии из полости матки( без учета патогистологического исследования )</td>
+                    <td class="cost">1000 грн</td>
                 </tr>
             </table>
 
@@ -156,11 +190,11 @@
                 <tr class="table_row">
                     <td class="kind">Постановка спирали (без учета стоимости спирали) +осмотр, 
                         кольпоскопия, УЗИ до и после постановки спирали</td>
-                    <td class="cost">1000 грн</td>
+                    <td class="cost">1400 грн</td>
                 </tr>
                 <tr class="table_row">
-                    <td class="kind">Удаление спирали + осмотр</td>
-                    <td class="cost">500 грн</td>
+                    <td class="kind">Удаление спирали + осмотр/(кольпоскопия)</td>
+                    <td class="cost">600/800 грн</td>
                 </tr>
             </table>
 
@@ -168,11 +202,11 @@
             <table class="table_item">
                 <tr class="table_row">
                     <td class="kind">Легкая степень сложности (до 5 папиллом)</td>
-                    <td class="cost">700 грн</td>
+                    <td class="cost">800 грн</td>
                 </tr>
                 <tr class="table_row">
                     <td class="kind">Умеренная степень сложности (от 6 папиллом)</td>
-                    <td class="cost">900 грн</td>
+                    <td class="cost">1200 грн</td>
                 </tr>
             </table>
 
@@ -181,11 +215,11 @@
                 <tr class="table_row">
                     <td class="kind"><strong>Радиоволновая терапия</strong> шейки матки (кольпоскопия, 
                         радиоволновая терапия) с Патгистологическим исследованием</td>
-                    <td class="cost"> 2 800 грн</td>
+                    <td class="cost"> 3000 грн</td>
                 </tr>
                 <tr class="table_row">
                     <td class="kind"><strong>Временное восстановление девственности</strong> (до 7 дней)</td>
-                    <td class="cost">5 000 грн</td>
+                    <td class="cost">7 000 грн</td>
                 </tr>
                 <tr class="table_row">
                     <td class="kind"><strong>Интимная контурная пластика</strong></td>
@@ -194,7 +228,7 @@
                 <tr class="table_row">
                     <td class="kind"><strong>Ведение беременности</strong> физиологической не отягощенной (все консультации, осмотры, 
                         УЗИ, лабораторная диагностика, консультации смежных специалистов) </td>
-                    <td class="cost">16 000 грн</td>
+                    <td class="cost">18 000 грн</td>
                 </tr>
                 <tr class="table_row">
                     <td class="kind"><strong>Ведение беременности</strong> еменности с наличием 
@@ -590,7 +624,7 @@
                 <h5>ВРЕМЯ РАБОТЫ</h5>
                 <div class="info_item_schedule">
                     <p>ВТ, СР, ЧТ, ПТ, СБ:</p>
-                    <p><strong>10<sup>00</sup> — 18<sup>00</sup></strong></p>
+                    <p><strong>9<sup>30</sup> — 17<sup>00</sup></strong></p>
                     <p>ВС, ПН: выходной</p>
                     <p>Запись на приём: ПН - СБ 9<sup>00</sup> — 19<sup>00</sup></p>
                 </div>

@@ -30,3 +30,20 @@
 .services_item ul li{
     margin-top: 7px;
 }
+
+
+@media screen and (max-width: 512px){
+    .services{
+        flex-direction: column;
+    }
+
+    .services_item{
+        align-self: center;
+        width: 70%;
+        min-width: 220px;
+    }
+
+    .services_item h3{
+        font-size: 21px;
+    }
+}

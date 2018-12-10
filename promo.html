@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="styles/promo.css" />
     <script src="js/main.js"></script>
     <script src="js/scroll.js"></script>
+    <script src="js/burger.js"></script>
 </head>
 <body>
     <header>
@@ -52,8 +53,36 @@
                     <!-- <li><a href="blog.html">Блог</a></li> -->
                 </ul>
             </nav>
+            <a href="#" id="burg" class="burger">
+                    <img src="images/icons/burgerpink.svg" alt="">
+                </a>
         </div> <!-- end of .header -->
     </header>
+
+    <ul class="header_nav_mobile" id="mobmenu">
+            <img src="images/icons/error.svg" alt="close" id="close">
+                <div class="centralize">
+            <li><a href="#">Главная</a></li>
+            <li><a href="services.html">Услуги</a></li>
+            <li id="subMenu_price" class="relative">
+                <a href="price.html" class="subMenu_top">Цены</a>
+                <ul class="price_sub subMenu" id="price">
+                    <li><a href="#">услуги</a></li>
+                    <li><a href="#">анализы</a></li>
+                </ul>
+            </li>
+            <li><a href="promo.html">Акции</a></li>
+            <li><a href="about.html">О клинике</a></li>
+            <li id="subMenu_contacts" class="relative">
+                <a href="contacts.html" class="subMenu_top">Контакты </a>
+                <ul class="contacts_sub subMenu" id="contacts">
+                    <li><a href="reception.html">Запись на приём</a></li>
+                    <li><a href="allquest.html">Задать вопрос</a></li>
+                </ul>
+            </li>
+        </div> 
+            <!-- <li><a href="blog.html">Блог</a></li> -->
+        </ul>
 
     <section class="slides">
         <img src="images/slides/02.jpg" alt="">
@@ -89,15 +118,17 @@
         <div class="center">
             <div class="packages_items">
                 <div class="package">
-                    <h5>ПЕРВИЧНЫЙ ПРИЁМ</h5>
+                    <h5>ПЕРВИЧНЫЙ КОМПЛЕКС</h5>
                     <div class="divider"></div>
-                    <h2>ДИАГНОСТИЧЕСКИЙ ОСМОТР</h2>
-                    <h2>СБОР АНАМНЕЗА</h2>
-                    <h2>КОЛЬПОСКОПИЯ</h2>
-                    <h2>КОНСУЛЬТАЦИЯ ВРАЧА</h2>
+                    <h2>Сбор анамнеза</h2>
+                    <h2>Осмотр диагностический (гинекологический)</h2>
+                    <h2>Кольпоскопия  Расширенная</h2>
+                    <h2>Консультация</h2>
+                    <h2>УЗИ</h2>
+                    <h2>Консультация (рекомендации, назначения)</h2>
                     <div class="bottom">
                         <div class="divider"></div>
-                        <p><strong>800</strong> грн</p>
+                        <p><strong>1 300</strong> грн</p>
                     </div>
                 </div>
             </div>
@@ -106,41 +137,14 @@
                 <div class="package">
                     <h5>ПЕРВИЧНЫЙ КОМПЛЕКС</h5>
                     <div class="divider"></div>
-                    <h2>ДИАГНОСТИЧЕСКИЙ ОСМОТР</h2>
-                    <h2>СБОР АНАМНЕЗА</h2>
-                    <h2>КОЛЬПОСКОПИЯ</h2>
-                    <h2>КОНСУЛЬТАЦИЯ ВРАЧА УЗИ</h2>
-                    <h2>КОНСУЛЬТАЦИЯ ПО РЕЗ.УЗИ</h2>
+                    <h2>Осмотр диагностический (гинекологический)</h2>
+                    <h2>Кольпоскопия  Расширенная</h2>
+                    <h2>Консультация</h2>
+                    <h2>УЗИ</h2>
+                    <h2>Консультация (рекомендации, назначения)</h2>
                     <div class="bottom">
                         <div class="divider"></div>
-                        <p><strong>1 100</strong> грн</p>
-                    </div>
-                </div>
-            </div>
-            <div class="packages_items">
-                <div class="package">
-                    <h5>ВТОРИЧНЫЙ ПРИЁМ (С ОСМОТРОМ НА КРЕСЛЕ)</h5>
-                    <div class="divider"></div>
-                    <h2>ОСМОТР ГИНЕКОЛОГИЧЕСКИЙ</h2>
-                    <h2>КОЛЬПОСКОПИЯ</h2>
-                    <h2>КОНСУЛЬТАЦИЯ ВРАЧА</h2>
-                    <div class="bottom">
-                        <div class="divider"></div>
-                        <p><strong>600</strong> грн</p>
-                    </div>
-                </div>
-            </div>
-            <div class="packages_items">
-                <div class="package">
-                    <h5>ВТОРИЧНЫЙ КОМПЛЕКС</h5>
-                    <div class="divider"></div>
-                    <h2>ОСМОТР</h2>
-                    <h2>КОЛЬПОСКОПИЯ</h2>
-                    <h2>КОНСУЛЬТАЦИЯ ВРАЧА УЗИ</h2>
-                    <h2>КОНСУЛЬТАЦИЯ ПО РЕЗ. УЗИ</h2>
-                    <div class="bottom">
-                        <div class="divider"></div>
-                        <p><strong>900</strong> грн</p>
+                        <p><strong>1 000</strong> грн</p>
                     </div>
                 </div>
             </div>
@@ -180,7 +184,7 @@
                     <h5>ВРЕМЯ РАБОТЫ</h5>
                     <div class="info_item_schedule">
                         <p>ВТ, СР, ЧТ, ПТ, СБ:</p>
-                        <p><strong>10<sup>00</sup> — 18<sup>00</sup></strong></p>
+                        <p><strong>9<sup>30</sup> — 17<sup>00</sup></strong></p>
                         <p>ВС, ПН: выходной</p>
                         <p>Запись на приём: ПН - СБ 9<sup>00</sup> — 19<sup>00</sup></p>
                     </div>

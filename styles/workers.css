@@ -41,3 +41,50 @@
     height: 300px;
     margin-bottom: 20px;
 }
+
+@media screen and (max-width: 1000px){
+    .workers .center{
+        flex-direction: column;
+    }
+
+    .workers_item{
+        align-self: center;
+        margin-top: 40px;
+    }
+    .workers_item{
+        width: 90%;
+        min-width: 250px;
+        
+    }
+
+    .workers_item p{
+        align-self: center;
+    }
+
+
+}
+
+
+@media screen and (max-width: 370px){
+    .workers_item{
+        width: 90%;
+        min-width: 250px;
+    }
+
+    .workers_item img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .workers_item h2{
+        font-size: 18px;
+    }
+
+    .workers_item h3{
+        font-size: 17px;
+    }
+
+    .workers_item p{
+        font-size: 15px;
+    }
+}

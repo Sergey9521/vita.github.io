@@ -161,6 +161,7 @@ header ul li:hover a{
     position: fixed;
     top: 15px;
     right: 15px;
+    cursor: pointer;
 }
 
 
@@ -176,6 +177,7 @@ header ul li:hover a{
 
     .burger{
         display: block;
+        
     }
 
     
@@ -191,5 +193,23 @@ header ul li:hover a{
 
     :root{
         --header_height: 45px;
+    }
+}
+
+@media screen and (max-width: 370px){
+    #close{
+        width: 25px;
+        height: 25px;
+        top: 5px;
+        right: 5px;
+    }
+
+    .header_nav_mobile li a{
+        width: 240px;
+        padding: 10px 0px;
+    }
+
+    .header_nav_mobile li{
+        margin-bottom: 13px;
     }
 }

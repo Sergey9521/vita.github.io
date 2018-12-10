@@ -26,6 +26,7 @@
     border: 1px solid black;
     width: 70%;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 table,tr,td{
@@ -48,13 +49,36 @@ td{
 
 .kind{
     width: 80%;
+    box-sizing: border-box;
 }
 
 .cost{
     width: 20%;
+    box-sizing: border-box;
 }
 
 
 .analysis{
     margin-top: 100px;
+}
+
+@media screen and (max-width: 800px){
+    .table_item{
+        width: 98%;
+    }
+
+    .kind{
+        font-size: 14px;
+    }
+    
+    .cost{
+        font-size: 14px;
+    }
+
+    .table{
+        min-width: 260px;
+    }
+    td{
+        padding: 7px;
+    }
 }

@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="styles/form.css" />
     <script src="js/main.js"></script>
     <script src="js/scroll.js"></script>
+    <script src="js/burger.js"></script>
 </head>
 <body>
     <header>
@@ -52,8 +53,36 @@
                     <!-- <li><a href="blog.html">Блог</a></li> -->
                 </ul>
             </nav>
+            <a href="#" id="burg" class="burger">
+                    <img src="images/icons/burgerpink.svg" alt="">
+                </a>
         </div> <!-- end of .header -->
     </header>
+
+    <ul class="header_nav_mobile" id="mobmenu">
+            <img src="images/icons/error.svg" alt="close" id="close">
+                <div class="centralize">
+            <li><a href="#">Главная</a></li>
+            <li><a href="services.html">Услуги</a></li>
+            <li id="subMenu_price" class="relative">
+                <a href="price.html" class="subMenu_top">Цены</a>
+                <ul class="price_sub subMenu" id="price">
+                    <li><a href="#">услуги</a></li>
+                    <li><a href="#">анализы</a></li>
+                </ul>
+            </li>
+            <li><a href="promo.html">Акции</a></li>
+            <li><a href="about.html">О клинике</a></li>
+            <li id="subMenu_contacts" class="relative">
+                <a href="contacts.html" class="subMenu_top">Контакты </a>
+                <ul class="contacts_sub subMenu" id="contacts">
+                    <li><a href="reception.html">Запись на приём</a></li>
+                    <li><a href="allquest.html">Задать вопрос</a></li>
+                </ul>
+            </li>
+        </div> 
+            <!-- <li><a href="blog.html">Блог</a></li> -->
+        </ul>
 
     <section class="slides">
         <img src="images/slides/09.jpg" alt="">
@@ -84,7 +113,7 @@
                 <img src="images/icons/doctor.svg" alt="doctor">
                 <h4>ЗАПИСАТЬСЯ НА ПРИЁМ</h4>
                 <div>
-                    <a class="button">Заполните форму</a>
+                    <a class="button" href="contacts.html">Заполните форму</a>
                 </div>
             </div>
             <div class="info_item">
@@ -213,7 +242,7 @@
                 <h5>ВРЕМЯ РАБОТЫ</h5>
                 <div class="info_item_schedule">
                     <p>ВТ, СР, ЧТ, ПТ, СБ:</p>
-                    <p><strong>10<sup>00</sup> — 18<sup>00</sup></strong></p>
+                    <p><strong>9<sup>30</sup> — 17<sup>00</sup></strong></p>
                     <p>ВС, ПН: выходной</p>
                     <p>Запись на приём: ПН - СБ 9<sup>00</sup> — 19<sup>00</sup></p>
                 </div>
