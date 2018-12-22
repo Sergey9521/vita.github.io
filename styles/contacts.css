@@ -44,6 +44,7 @@
     text-align: left;
     width: 50%;
     max-width: 180px;
+    min-width: 180px;
 }
 
 .contacts_numbers a{
@@ -73,4 +74,32 @@
 
 .contacts_social a img:hover{
     filter: brightness(80%);
+}
+
+
+@media screen and (max-width: 800px){
+    .contacts{
+        flex-direction: column;
+        align-content: center;
+    }
+    .contacts iframe{
+        align-self: center;
+        width: 100%;
+        height: 330px;
+    }
+
+    .contacts_item{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .form h4{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .form h4{
+        font-size: 19px;
+    }
 }

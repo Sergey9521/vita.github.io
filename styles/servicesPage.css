@@ -120,3 +120,33 @@ article h3 a:hover{
 .rightcolumn_content .divider{
     margin: 20px 0px;
 }
+
+@media screen and (max-width: 1000px){
+    .rightcolumn{
+        display: none;
+    }
+    
+    .leftcolumn{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .leftcolumn_item_box{
+        flex-wrap: wrap;
+    }
+    
+    .leftcolumn_item_box img{
+        width: 100%;
+    }
+
+    .article_item{
+        width: 100%;
+    }
+
+    .article_item p{
+        font-size: 18px;
+        margin-top: 10px;
+        text-align: center;
+    }
+}

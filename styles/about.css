@@ -61,3 +61,53 @@
 .short{
     height: 270px;
 }
+
+
+@media screen and (max-width: 700px){
+
+.textabout{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textabout p:first-child{
+    margin-bottom: 10px;
+}
+
+.textabout p{
+    width: 100%;
+}
+
+.aboutus{
+    flex-direction: column;
+}
+
+.aboutus_img{
+    width: 100%;
+}
+
+.aboutus_list{
+    width: 100%;
+}
+
+}
+
+
+@media screen and (max-width: 450px){
+    .short{
+        height: 150px;
+    }
+
+    .long{
+        height: 300px;
+    }
+
+    .custommargin{
+        margin: 15px 0px;
+    }
+
+    .aboutclinic{
+        font-size: 27px;
+    }
+}

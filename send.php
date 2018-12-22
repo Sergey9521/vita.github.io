@@ -6,7 +6,7 @@ $phone = htmlspecialchars($_POST["tel"]);
 $email = htmlspecialchars($_POST["mail"]);
 $message = htmlspecialchars($_POST["text"]);
 /* Устанавливаем e-mail адресата */
-$myemail = "serega.lypnik@gmail.com";
+$myemail = "vita3328458@gmail.com";
 /* Проверяем заполнены ли обязательные поля ввода, используя check_input 
 функцию */
 $your_name = check_input($_POST["name"], "Введите ваше имя!");
